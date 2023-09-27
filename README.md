@@ -18,10 +18,11 @@ Los siguientes ejercicios van sobre el posicionamiento CSS. Consulta este [enlac
 
 1. Coloca la estrellita encima de Mario. SOLAMENTE hay que añadir algunas propiedades a los selectores adecuados, no tocar el HTML.
 2. Cuando lo consigas, haz más pequeño el viewport(haz más pequeña la ventana del navegador), y comprueba si tu código sigue funcionando
+Fíjate en este [vídeo](https://oscarm.tinytake.com/msc/ODczNTkyN18yMjEzODc0NA) cómo debe quedar.
 
 ## Posicionamiento-fixed
 
-1. El header superior tiene un posicionamiento _fixed_ . Fíjate en este [vídeo](https://oscarm.tinytake.com/msc/ODczNTkyN18yMjEzODc0NA) cómo debe quedar.
+1. El header superior tiene un posicionamiento _fixed_ . Cuando hago scroll, no baja, se queda fijo
 ![screencapture-mclibre-org-consultar-htmlcss-ejercicios-posicionamiento-fijo-software-libre-2-software-libre-2-formateado-html-2023-09-27-08_02_56](https://github.com/omiras/posicionamiento-css-PIMEC/assets/3286458/09405c2f-ae6a-4a96-af3e-35b38b0966c4)
 
 ## Posicionamiento-sticky
