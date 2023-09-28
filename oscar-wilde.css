@@ -1,0 +1,48 @@
+@import url("mclibre-pie.css");
+
+/* Paginas web HTML y hojas de estilo CSS   */
+/* Bartolome Sintes Marco                   */
+/* https://www.mclibre.org                  */
+/*                                          */
+/* CSS ejercicio: Citas de Oscar Wilde      */
+/*                                          */
+/* 3 de octubre de 2022                     */
+/*                                          */
+
+body {
+    background-color: rgb(51, 231, 255);
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(0, 90, 102);
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    overflow: auto;
+    border: rgb(0, 90, 102) 5px dashed;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(0, 180, 204);
+    font-size: 1.5rem;
+    font-style: oblique;
+    /* line-height: 150%; */
+    /* He tenido que quitar line-height porque en Chrome e IE se perdÃ­a el efecto de letra capital */
+}
+
+p::first-letter {
+    float: left;
+    color: rgb(0, 90, 102);
+    font-size: 5rem;
+    font-style: normal;
+    line-height: 3rem;
+    /* para que se vea en IE y Chrome como en FF */
+}
